@@ -1,6 +1,10 @@
-const domScript = `<script>
+const domScript = `
+<script>
   $(document).ready(function() {
-    $("button").addClass("animated bounce");
+    $("button").addClass("animated shake");
+    console.log('hi 2');
+    modifiedDOM = document.body.innerHTML;
+    console.log('modifiedDOM:', modifiedDOM); // "Hello world"
   });
 </script>
 
