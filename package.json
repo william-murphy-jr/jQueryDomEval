@@ -1,0 +1,16 @@
+{
+  "name": "jquerydomeval",
+  "version": "1.0.0",
+  "description": "This is a test bed for the jquery dom evaluator",
+  "main": "jQeuryDomEval.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon jQueryDomEval.js" 
+  },
+  "author": "william murphy jr",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2"
+  }
+}
