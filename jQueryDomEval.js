@@ -4,7 +4,6 @@ const jquery = require('jquery');
 const script = require('./iframeDOM');
 
 const __DEBUG = false;
-const __DEBUG_2 = false;
 
 const jQueryDomEval = (scriptedCode) => {
   return new Promise ((resolve, reject) => {
