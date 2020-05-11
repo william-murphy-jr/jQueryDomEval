@@ -1,7 +1,8 @@
 const domScript = `
 <script>
   $(document).ready(function() {
-    $("button").addClass("animated shake");
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
   });
 </script>
 
